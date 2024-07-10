@@ -50,8 +50,8 @@ export default {
 		//console.log(`${fakeUserID}\n${fakeHostName}`); // 打印fakeID
 
 		//let UD = Math.floor(((timestamp - Date.now())/timestamp * total * 1099511627776 )/2);
-		let UDU = Math.floor(((timestamp - Date.now())/timestamp * total * 1099511627776 ) + 234);
-		let UDD = Math.floor(((timestamp - Date.now())/timestamp * total * 1099511627776 ) + 434);
+		let UDU = Math.floor(((timestamp - Date.now())/timestamp * total * 109951162777 ) + 234);
+		let UDD = Math.floor(((timestamp - Date.now())/timestamp * total * 109951162777 ) + 434);
 		total = total * 1099511627776 ;
 		let expire= Math.floor(timestamp / 1000) ;
 		SUBUpdateTime = env.SUBUPTIME || SUBUpdateTime;
