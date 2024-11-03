@@ -254,7 +254,6 @@ async function nginx() {
 	</head>
 	<body>
 	<h1>Welcome to nginx!</h1>
-	//<p><a href="http://t.me/mfbpn">苏木分享 TG@MFBPN</a></p>
 
 	<p>If you see this page, the nginx web server is successfully installed and
 	working. Further configuration is required.</p>
